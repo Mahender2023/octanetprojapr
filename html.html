@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1><i class="fas fa-globe"></i> Your Brand</h1>
+    </div>
+    <div class="header-right">
+      <form id="searchForm">
+        <input type="text" placeholder="Search...">
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </form>
+      <div id="login">
+        <h2>Login</h2>
+        <form id="loginForm">
+          <input type="email" placeholder="Enter your email" required>
+          <input type="password" placeholder="Enter your password" required>
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+  <section id="features">
+    <h2>Latest News</h2>
+    <div class="news">
+      <div class="news-item">
+        <img src="R.jpg" alt="News 1">
+        <h3>Breaking News Headline</h3>
+        <p>Description of the breaking news...</p>
+      </div>
+      <div class="news-item">
+        <img src="OIP.jpg" alt="News 2">
+        <h3>Another Breaking News Headline</h3>
+        <p>Description of another breaking news...</p>
+      </div>
+    </div>
+  </section>
+  <section id="newsletter">
+    <h2>Subscribe to Our Newsletter</h2>
+    <form id="subscribeForm">
+      <input type="email" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2024 Your Brand. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
